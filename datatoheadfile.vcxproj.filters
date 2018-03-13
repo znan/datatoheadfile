@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="srand">
+      <UniqueIdentifier>{bfa33821-fac3-4d01-ae57-fd56b195854c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sig">
+      <UniqueIdentifier>{f3c1527b-f403-4b69-a2d2-487c76940207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wgn">
+      <UniqueIdentifier>{92a6d153-2199-4242-9d03-d053ab326e23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="srand_DIR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="srand_DII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="srand_DOR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="srand_DOI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sig_DII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sig_DIR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sig_DOI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sig_DOR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wgn_DII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wgn_DIR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wgn_DOI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wgn_DOR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="srand_III.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="srand_IIR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="srand_IOI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="srand_IOR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sig_III.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sig_IIR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sig_IOI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sig_IOR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wgn_III.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wgn_IIR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wgn_IOI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wgn_IOR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="filedeclare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="datatoheadfile.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="srand\DII_64.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DII_256.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DII_1024.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DIR_64.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DIR_256.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DIR_1024.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DOI_64.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DOI_256.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DOI_1024.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DOR_64.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DOR_256.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\DOR_1024.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="sig\DII_64.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DII_256.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DII_1024.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DIR_64.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DIR_256.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DIR_1024.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DOI_64.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DOI_256.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DOI_1024.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DOR_64.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DOR_256.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\DOR_1024.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="wgn\DII_64.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DII_256.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DII_1024.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DIR_64.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DIR_256.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DIR_1024.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DOI_64.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DOI_256.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DOI_1024.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DOR_64.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DOR_256.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\DOR_1024.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="srand\III_64.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\III_256.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\III_1024.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\IIR_64.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\IIR_256.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\IIR_1024.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\IOI_64.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\IOI_256.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\IOI_1024.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\IOR_64.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\IOR_256.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="srand\IOR_1024.txt">
+      <Filter>srand</Filter>
+    </None>
+    <None Include="sig\III_64.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\III_256.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\III_1024.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\IIR_64.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\IIR_256.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\IIR_1024.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\IOI_64.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\IOI_256.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\IOI_1024.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\IOR_64.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\IOR_256.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="sig\IOR_1024.txt">
+      <Filter>sig</Filter>
+    </None>
+    <None Include="wgn\III_64.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\III_256.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\III_1024.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\IIR_64.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\IIR_256.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\IIR_1024.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\IOI_64.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\IOI_256.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\IOI_1024.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\IOR_64.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\IOR_256.txt">
+      <Filter>wgn</Filter>
+    </None>
+    <None Include="wgn\IOR_1024.txt">
+      <Filter>wgn</Filter>
+    </None>
+  </ItemGroup>
+</Project>

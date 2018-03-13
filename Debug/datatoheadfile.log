@@ -1,0 +1,44 @@
+﻿生成启动时间为 2018/3/13 17:33:21。
+     1>项目“G:\vs_zn\datatoheadfile\datatoheadfile\datatoheadfile.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\datatoheadfile.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         I:\programfiles\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>g:\vs_zn\datatoheadfile\datatoheadfile\main.c(14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 i:\programfiles\vs2010\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>g:\vs_zn\datatoheadfile\datatoheadfile\main.c(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 i:\programfiles\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\vs_zn\datatoheadfile\datatoheadfile\main.c(24): warning C4098: “data_to_head_file”:“void”函数返回值
+     1>g:\vs_zn\datatoheadfile\datatoheadfile\main.c(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 i:\programfiles\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\vs_zn\datatoheadfile\datatoheadfile\main.c(32): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 i:\programfiles\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\vs_zn\datatoheadfile\datatoheadfile\main.c(32): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 i:\programfiles\vs2010\vc\include\string.h(110) : 参见“strcat”的声明
+     1>g:\vs_zn\datatoheadfile\datatoheadfile\main.c(36): warning C4098: “data_to_head_file”:“void”函数返回值
+     1>g:\vs_zn\datatoheadfile\datatoheadfile\main.c(57): warning C4098: “data_to_head_file”:“void”函数返回值
+     1>g:\vs_zn\datatoheadfile\datatoheadfile\main.c(62): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 i:\programfiles\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         I:\programfiles\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\vs_zn\datatoheadfile\Debug\datatoheadfile.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\datatoheadfile.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\vs_zn\datatoheadfile\Debug\datatoheadfile.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\vs_zn\datatoheadfile\Debug\datatoheadfile.lib" /MACHINE:X86 Debug\datatoheadfile.res
+         Debug\datatoheadfile.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\datatoheadfile.exe.embed.manifest" /manifest Debug\datatoheadfile.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         datatoheadfile.vcxproj -> G:\vs_zn\datatoheadfile\Debug\datatoheadfile.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\datatoheadfile.unsuccessfulbuild”。
+         正在对“Debug\datatoheadfile.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\vs_zn\datatoheadfile\datatoheadfile\datatoheadfile.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.53

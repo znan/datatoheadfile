@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6DD937DA-B9FD-453D-B726-988C8FA35B36}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>datatoheadfile</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="filedeclare.h" />
+    <ClInclude Include="sig_DII.h" />
+    <ClInclude Include="sig_DIR.h" />
+    <ClInclude Include="sig_DOI.h" />
+    <ClInclude Include="sig_DOR.h" />
+    <ClInclude Include="sig_III.h" />
+    <ClInclude Include="sig_IIR.h" />
+    <ClInclude Include="sig_IOI.h" />
+    <ClInclude Include="sig_IOR.h" />
+    <ClInclude Include="srand_DIR.h" />
+    <ClInclude Include="srand_DII.h" />
+    <ClInclude Include="srand_DOI.h" />
+    <ClInclude Include="srand_DOR.h" />
+    <ClInclude Include="srand_III.h" />
+    <ClInclude Include="srand_IIR.h" />
+    <ClInclude Include="srand_IOI.h" />
+    <ClInclude Include="srand_IOR.h" />
+    <ClInclude Include="wgn_DII.h" />
+    <ClInclude Include="wgn_DIR.h" />
+    <ClInclude Include="wgn_DOI.h" />
+    <ClInclude Include="wgn_DOR.h" />
+    <ClInclude Include="wgn_III.h" />
+    <ClInclude Include="wgn_IIR.h" />
+    <ClInclude Include="wgn_IOI.h" />
+    <ClInclude Include="wgn_IOR.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="datatoheadfile.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sig\DII_1024.txt" />
+    <None Include="sig\DII_256.txt" />
+    <None Include="sig\DII_64.txt" />
+    <None Include="sig\DIR_1024.txt" />
+    <None Include="sig\DIR_256.txt" />
+    <None Include="sig\DIR_64.txt" />
+    <None Include="sig\DOI_1024.txt" />
+    <None Include="sig\DOI_256.txt" />
+    <None Include="sig\DOI_64.txt" />
+    <None Include="sig\DOR_1024.txt" />
+    <None Include="sig\DOR_256.txt" />
+    <None Include="sig\DOR_64.txt" />
+    <None Include="sig\III_1024.txt" />
+    <None Include="sig\III_256.txt" />
+    <None Include="sig\III_64.txt" />
+    <None Include="sig\IIR_1024.txt" />
+    <None Include="sig\IIR_256.txt" />
+    <None Include="sig\IIR_64.txt" />
+    <None Include="sig\IOI_1024.txt" />
+    <None Include="sig\IOI_256.txt" />
+    <None Include="sig\IOI_64.txt" />
+    <None Include="sig\IOR_1024.txt" />
+    <None Include="sig\IOR_256.txt" />
+    <None Include="sig\IOR_64.txt" />
+    <None Include="srand\DII_1024.txt" />
+    <None Include="srand\DII_256.txt" />
+    <None Include="srand\DII_64.txt" />
+    <None Include="srand\DIR_1024.txt" />
+    <None Include="srand\DIR_256.txt" />
+    <None Include="srand\DIR_64.txt" />
+    <None Include="srand\DOI_1024.txt" />
+    <None Include="srand\DOI_256.txt" />
+    <None Include="srand\DOI_64.txt" />
+    <None Include="srand\DOR_1024.txt" />
+    <None Include="srand\DOR_256.txt" />
+    <None Include="srand\DOR_64.txt" />
+    <None Include="srand\III_1024.txt" />
+    <None Include="srand\III_256.txt" />
+    <None Include="srand\III_64.txt" />
+    <None Include="srand\IIR_1024.txt" />
+    <None Include="srand\IIR_256.txt" />
+    <None Include="srand\IIR_64.txt" />
+    <None Include="srand\IOI_1024.txt" />
+    <None Include="srand\IOI_256.txt" />
+    <None Include="srand\IOI_64.txt" />
+    <None Include="srand\IOR_1024.txt" />
+    <None Include="srand\IOR_256.txt" />
+    <None Include="srand\IOR_64.txt" />
+    <None Include="wgn\DII_1024.txt" />
+    <None Include="wgn\DII_256.txt" />
+    <None Include="wgn\DII_64.txt" />
+    <None Include="wgn\DIR_1024.txt" />
+    <None Include="wgn\DIR_256.txt" />
+    <None Include="wgn\DIR_64.txt" />
+    <None Include="wgn\DOI_1024.txt" />
+    <None Include="wgn\DOI_256.txt" />
+    <None Include="wgn\DOI_64.txt" />
+    <None Include="wgn\DOR_1024.txt" />
+    <None Include="wgn\DOR_256.txt" />
+    <None Include="wgn\DOR_64.txt" />
+    <None Include="wgn\III_1024.txt" />
+    <None Include="wgn\III_256.txt" />
+    <None Include="wgn\III_64.txt" />
+    <None Include="wgn\IIR_1024.txt" />
+    <None Include="wgn\IIR_256.txt" />
+    <None Include="wgn\IIR_64.txt" />
+    <None Include="wgn\IOI_1024.txt" />
+    <None Include="wgn\IOI_256.txt" />
+    <None Include="wgn\IOI_64.txt" />
+    <None Include="wgn\IOR_1024.txt" />
+    <None Include="wgn\IOR_256.txt" />
+    <None Include="wgn\IOR_64.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
